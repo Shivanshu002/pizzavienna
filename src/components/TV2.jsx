@@ -12,10 +12,7 @@ const M1 = () => {
     return (
         <>
 
-
             <section className='w-full min-h-[2160px]   bg-blue-700 font-cooperBlack'>
-
-
                 <div className=''>
                     <div className='flex gap-[20px] bg-red-600'>
                         <h1 className='w-1/4 text-[50px] text-white font-cooperBlack font-semibold'>Sides</h1>
@@ -23,7 +20,6 @@ const M1 = () => {
                         <h1 className='w-1/4 text-[50px] text-white font-cooperBlack font-semibold'>Desserts</h1>
                         <h1 className='w-1/4 text-[50px] text-white font-cooperBlack font-semibold'>Salad</h1>
                     </div>
-
                     <div className='flex gap-[20px] pr-2 pl-2'>
 
                         <div className='w-1/4'>
@@ -175,10 +171,7 @@ const M1 = () => {
 
                         </div>
 
-
-
                         {/* subs */}
-
                         <div className='w-1/4'>
                             <div >
                                 <div className='flex justify-between items-center'>

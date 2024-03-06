@@ -12,8 +12,8 @@ const M2 = () => {
 
                 <div className=' '>
                     <div className='flex gap-[20px] bg-red-600 pl-2 pr-2'>
-                        <h1 className='w-1/4 text-[50px] text-white font-cooperBlack font-semibold'>Strombolies Rolls </h1>
-                        <h1 className='w-1/4 text-[50px] text-white font-cooperBlack font-semibold'>Calozones</h1>
+                        <h1 className='w-1/4 text-[50px] text-white font-cooperBlack font-semibold'>Strombolis Rolls </h1>
+                        <h1 className='w-1/4 text-[50px] text-white font-cooperBlack font-semibold'>Calzone</h1>
                         <h1 className='w-1/4 text-[50px] text-white font-cooperBlack font-semibold'>Sandwiches</h1>
                         <h1 className='w-1/4 text-[50px] text-white font-cooperBlack font-semibold'>Pizza by Slice</h1>
                     </div>

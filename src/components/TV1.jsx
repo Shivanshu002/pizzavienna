@@ -9,13 +9,9 @@ const Home = () => {
 
 
             <section className='w-full min-h-[2160px]   bg-blue-700 font-cooperBlack'>
-
-
                 <div className=''>
                     <h1 className='text-[50px] bg-red-600 pl-2 text-white font-cooperBlack font-semibold'>Pizza</h1>
-
                     <div className='flex gap-10 pl-2 pr-2'>
-
                         <div className='w-1/2'>
                             <div>
                                 <div className='flex justify-between items-center'>
@@ -153,7 +149,7 @@ const Home = () => {
 
                                     </div>
                                 </div>
-                                <p className='discription-text'>Tomato sauce, cheese, bacon, sausage, meetball, pepproni</p>
+                                <p className='discription-text'>Tomato sauce, cheese, bacon, sausage, meetball, pepperoni</p>
                             </div>
 
 
@@ -179,7 +175,7 @@ const Home = () => {
 
                                     </div>
                                 </div>
-                                <p className='discription-text'>Tomato sauce, cheese, green pappers, mushroom, tomatoes, olives, onions</p>
+                                <p className='discription-text'>Tomato sauce, cheese, green peppers, mushroom, tomatoes, olives, onions</p>
 
                             </div>
 
@@ -232,7 +228,7 @@ const Home = () => {
 
                                     </div>
                                 </div>
-                                <p className='discription-text'>Red sauce, fried chicken, BBQ sauce, cheese</p>
+                                <p className='discription-text'>Red sauce, fried chicken, buffalo sauce, cheese</p>
                             </div>
 
                             <div >
@@ -482,7 +478,7 @@ const Home = () => {
 
                                     </div>
                                 </div>
-                                <p className='discription-text'>American chesse, yellow cheddar , parmesan, mozzarella and provolone cheese</p>
+                                <p className='discription-text'>American cheese, yellow cheddar, parmesan, mozzarella and provolone cheese</p>
 
                             </div>
 
@@ -510,7 +506,7 @@ const Home = () => {
 
                                     </div>
                                 </div>
-                                <p className='discription-text'>Pepperoni, becon, and pineapple</p>
+                                <p className='discription-text'>Pepperoni, bacon, and pineapple</p>
 
                             </div>
 
