@@ -2,8 +2,25 @@ import React from 'react';
 // import Header from './Header';
 // import video from '../assests/background.mp4';
 import '../css/home.css';
+import { useEffect } from 'react';
+
+
 
 const Home = () => {
+
+    useEffect(() => {
+        const intervalId = setInterval(() => {
+          window.location.reload();
+        }, 2100000); // 60000 milliseconds = 1 minute
+    
+        return () => {
+          // Cleanup the interval when the component is unmounted
+          clearInterval(intervalId);
+        };
+      }, []);
+
+
+
     return (
         <>
 
@@ -24,7 +41,7 @@ const Home = () => {
 
                                         <div>
                                             <i className='text-[22px] text-[#FFD700] font-cooperBlack '>Medium</i>
-                                            <p className='pizza-price '>&#36;11.99</p>
+                                            <p className='pizza-price '>&#36;14.99</p>
                                         </div>
 
                                         <div>
@@ -128,7 +145,7 @@ const Home = () => {
 
                             <div >
                                 <div className='flex justify-between items-center'>
-                                    <h2 className='pizza-name-text'>Meet Lover </h2>
+                                    <h2 className='pizza-name-text'>Meat Lover </h2>
                                     <div className='price-box'>
 
                                         <div>

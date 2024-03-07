@@ -1,8 +1,20 @@
+import { useEffect } from 'react';
 import '../css/home.css';
-import video from '../assests/background.mp4';
+// import video from '../assests/background.mp4';
+
 
 const M2 = () => {
 
+    useEffect(() => {
+        const intervalId = setInterval(() => {
+          window.location.reload();
+        }, 2100000); // 60000 milliseconds = 1 minute
+    
+        return () => {
+          // Cleanup the interval when the component is unmounted
+          clearInterval(intervalId);
+        };
+      }, []);
 
     return (
         <>

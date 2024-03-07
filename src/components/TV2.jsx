@@ -1,13 +1,22 @@
 import '../css/home.css';
-import video from '../assests/background.mp4';
+// import video from '../assests/background.mp4';
 import { useState, useEffect } from 'react';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import cake from '.././assests/pngwing.com (7).png';
+// import cake from '.././assests/pngwing.com (7).png';
 
 const M1 = () => {
 
-
+    useEffect(() => {
+        const intervalId = setInterval(() => {
+          window.location.reload();
+        }, 2100000); // 60000 milliseconds = 1 minute
+    
+        return () => {
+          // Cleanup the interval when the component is unmounted
+          clearInterval(intervalId);
+        };
+      }, []);
 
     return (
         <>
@@ -195,7 +204,7 @@ const M1 = () => {
                                 <div className='flex justify-between items-center'>
                                     <h2 className='pizza-name-text'>Chicken Steak</h2>
                                     <div className='price-box'>
-                                        <p className='pizza-price '>&#36;9.99</p>
+                                        <p className='pizza-price '>&#36;8.99</p>
                                         <p className='pizza-price '>&#36;12.99</p>
                                     </div>
                                 </div>
@@ -229,8 +238,8 @@ const M1 = () => {
                                 <div className='flex justify-between items-center'>
                                     <h2 className='pizza-name-text'>Italian Cold Cut</h2>
                                     <div className='price-box'>
-                                        <p className='pizza-price '>&#36;7.99</p>
-                                        <p className='pizza-price '>&#36;7.99</p>
+                                        <p className='pizza-price '>&#36;8.99</p>
+                                        <p className='pizza-price '>&#36;12.99</p>
                                     </div>
                                 </div>
                                 <p className='discription-text'>Ham, Salami, Provolone cheese, oregano, parmesan, house italian dressing</p>
@@ -245,7 +254,7 @@ const M1 = () => {
                                         <p className='pizza-price '>&#36;12.99</p>
                                     </div>
                                 </div>
-                                <p className='discription-text'>Pita, Tzatziki sauce, tomatoes, chicken, feta cheese, lettuce and onions</p>
+                                <p className='discription-text'>Pita, Tzatziki sauce, tomatoes, gyro meat, feta cheese, lettuce and onions</p>
 
                             </div>
 
