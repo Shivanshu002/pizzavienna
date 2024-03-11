@@ -192,7 +192,7 @@ const Home = () => {
 
                                     </div>
                                 </div>
-                                <p className='discription-text'>Tomato sauce, cheese, green peppers, mushroom, tomatoes, olives, onions</p>
+                                <p className='discription-text'>Tomato sauce, cheese, green peppers, mushroom, tomatoes, olives, onions, spinach</p>
 
                             </div>
 
