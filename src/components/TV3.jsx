@@ -149,7 +149,7 @@ const M2 = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <p className='discription-text'>Mushrooms, Green Peppers, Onions, MeatBalls, Sausage, Pepperoni, American, Provolone & Mozzarella Cheese </p>
+                                <p className='discription-text'>Mushrooms, Green Peppers, Onions, MeatBalls, Sausage, Pepperoni, American, Provolone, Mozzarella Cheese </p>
                             </div>
 
                             <div >
@@ -174,6 +174,18 @@ const M2 = () => {
                                     </div>
                                 </div>
                                 <p className='discription-text'>Bacon Ranch Pepperoni, Sausage, Bacon, Meatballs, American, Provolone & Mozzarella Cheese </p>
+                            </div>
+
+                            <div >
+                                <div className='flex justify-between items-center'>
+                                    <h2 className='pizza-name-text'>Meat lover calzone</h2>
+                                    <div className='price-box'>
+                                        <div>
+                                            <p className='pizza-price '>&#36;16.99</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p className='discription-text'>Pepperoni, sausage, meat balls, bacon, American, mozzarella and provolone cheese. </p>
                             </div>
 
                             <div className='w-full ml-0 m-7 p-2 bg-red-600 rounded-[5px]'>
