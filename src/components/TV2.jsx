@@ -509,7 +509,7 @@ const M1 = () => {
                   <h2 className="pizza-name-text">Chicken Caesar</h2>
                   <div className="price-box">
                     <div>
-                      <p className="pizza-price ">&#36;8.99</p>
+                      <p className="pizza-price ">&#36;9.99</p>
                     </div>
                   </div>
                 </div>

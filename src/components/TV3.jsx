@@ -202,6 +202,21 @@ const M2 = () => {
 
               <div>
                 <div className="flex justify-between items-center">
+                  <h2 className="pizza-name-text">Deluxe Calzone</h2>
+                  <div className="price-box">
+                    <div>
+                      <p className="pizza-price ">&#36;16.99</p>
+                    </div>
+                  </div>
+                </div>
+                <p className="discription-text">
+                  Pepperoni, Sausage, Meat balls, Mushrooms, Green pepper,
+                  Onion, Ricotta, Provolone & Mozzarella Cheese.{" "}
+                </p>
+              </div>
+
+              <div>
+                <div className="flex justify-between items-center">
                   <h2 className="pizza-name-text">Meat lover calzone</h2>
                   <div className="price-box">
                     <div>
