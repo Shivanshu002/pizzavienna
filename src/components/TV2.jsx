@@ -93,16 +93,6 @@ const M1 = () => {
                 </div>
               </div>
 
-              <div className="flex justify-between items-center">
-                <div>
-                  <h2 className="pizza-name-text">Chicken Tenders</h2>
-                </div>
-                <div className="price-box">
-                  <div>
-                    <p className="pizza-price ">&#36;7.99</p>
-                  </div>
-                </div>
-              </div>
 
               <div className="flex justify-between items-center">
                 <div>

@@ -165,8 +165,7 @@ const M2 = () => {
                   </div>
                 </div>
                 <p className="discription-text">
-                  Mushrooms, Green Peppers, Onions, MeatBalls, Sausage,
-                  Pepperoni, American, Ricotta, Provolone, Mozzarella Cheese.{" "}
+                  Ricotta, Mozzarella & Provolone
                 </p>
               </div>
 
@@ -180,8 +179,7 @@ const M2 = () => {
                   </div>
                 </div>
                 <p className="discription-text">
-                  Ham, Pineapple, American, Ricotta, Provolone & Mozzarella
-                  Cheese.{" "}
+                  BBQ Sauce, Ricotta Cheese, Mozzarella & Provolone
                 </p>
               </div>
 
@@ -195,8 +193,8 @@ const M2 = () => {
                   </div>
                 </div>
                 <p className="discription-text">
-                  Bacon Ranch Pepperoni, Sausage, Bacon, Meatballs, American,
-                  Ricotta, Provolone & Mozzarella Cheese.{" "}
+                  Buffalo Sauce, Ricotta Cheese,
+                  Provolone & Mozzarella Cheese
                 </p>
               </div>
 

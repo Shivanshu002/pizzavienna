@@ -92,31 +92,38 @@ const Home = () => {
                 </p>
               </div>
 
-              <div className="flex justify-between items-center">
-                <h2 className="pizza-name-text">Pepperoni</h2>
+              <div>
+                <div className="flex justify-between items-center">
+                  <h2 className="pizza-name-text">Pepperoni</h2>
 
-                <div className="price-box">
-                  <div>
-                    <p className="pizza-price ">&#36;13.99</p>
+                  <div className="price-box">
+                    <div>
+                      <p className="pizza-price ">&#36;13.99</p>
+                    </div>
+
+                    <div>
+                      <p className="pizza-price ">&#36;14.99</p>
+                    </div>
+
+                    <div>
+                      <p className="pizza-price ">&#36;15.99</p>
+                    </div>
+
+                    <div>
+                      <p className="pizza-price ">&#36;17.99</p>
+                    </div>
                   </div>
 
-                  <div>
-                    <p className="pizza-price ">&#36;14.99</p>
-                  </div>
-
-                  <div>
-                    <p className="pizza-price ">&#36;15.99</p>
-                  </div>
-
-                  <div>
-                    <p className="pizza-price ">&#36;17.99</p>
-                  </div>
                 </div>
+                <p className="discription-text">
+                  Fresh dough, red sauce, pepperoni, sauce
+                </p>
               </div>
 
               <div className="">
                 <div className="flex justify-between items-center">
                   <h2 className="pizza-name-text">Hawaian</h2>
+
                   <div className="price-box">
                     <div>
                       <p className="pizza-price ">&#36;15.99</p>
@@ -134,6 +141,7 @@ const Home = () => {
                       <p className="pizza-price ">&#36;22.99</p>
                     </div>
                   </div>
+
                 </div>
                 <p className="discription-text">
                   Tomato sauce, pinapple cubes, cheese and ham
@@ -216,8 +224,7 @@ const Home = () => {
                 </div>
                 <p className="discription-text">
                   {" "}
-                  BBQ sauce, chicken, cheese, green peppers, mushroom, tomatoes,
-                  olives, onions.
+                  BBQ sauce, chicken & cheese 
                 </p>
               </div>
 
@@ -323,7 +330,7 @@ const Home = () => {
                   </div>
                 </div>
                 <p className="discription-text">
-                  Alfredo sauce, chiken, brocoli, mushroom
+                  Alfredo sauce, chicken, brocoli, mushroom
                 </p>
               </div>
 
@@ -359,7 +366,7 @@ const Home = () => {
               <div className="flex justify-between items-center">
                 <div className="">
                   <h2 className="pizza-name-text mt-8">NY Style Mergherita</h2>
-                  <p className="discription-text"> </p>
+                  <p className="discription-text"> Red sauce, pesto sauce, mozzarella cheese, olive oil, parmesan cheese</p>
                 </div>
 
                 <div className="price-box">
@@ -391,6 +398,7 @@ const Home = () => {
                     <p className="pizza-price ">&#36;22.99</p>
                   </div>
                 </div>
+
               </div>
 
               <div>
