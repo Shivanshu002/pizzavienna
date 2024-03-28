@@ -144,7 +144,7 @@ const Home = () => {
 
                 </div>
                 <p className="discription-text">
-                  Tomato sauce, pinapple cubes, cheese and ham
+                  Tomato sauce, pineapple cubes, cheese and ham
                 </p>
               </div>
 
