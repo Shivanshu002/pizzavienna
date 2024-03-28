@@ -25,44 +25,82 @@ const Home = () => {
           </h1>
           <div className="flex gap-10 pl-2 pr-2">
             <div className="w-1/2">
+
               <div>
+
                 <div className="flex justify-between items-center">
-                  <h2 className="pizza-name-text pt-7">Gluten Free</h2>
+                  <h2 className="pizza-name-text pt-7"></h2>
                   <div className="price-box ">
-                    <div>
+                    <div className="flex flex-col justify-center items-center">
                       <i className="text-[22px] text-[#FFD700] font-cooperBlack ">
                         Small
                       </i>
-                      <p className="pizza-price ">////</p>
+                      <p className="pizza-price ">10"</p>
+                      <p className="pizza-price ">4 slices</p>
+
                     </div>
 
-                    <div>
+                    <div className="flex flex-col justify-center items-center">
                       <i className="text-[22px] text-[#FFD700] font-cooperBlack ">
                         Medium
                       </i>
-                      <p className="pizza-price ">&#36;14.99</p>
+                      <p className="pizza-price ">12"</p>
+                      <p className="pizza-price ">6 slices</p>
                     </div>
 
-                    <div>
+                    <div className="flex flex-col justify-center items-center">
                       <i className="text-[22px] text-[#FFD700] font-cooperBlack ">
                         Large
                       </i>
-                      <p className="pizza-price ">////</p>
+                      <p className="pizza-price ">14"</p>
+                      <p className="pizza-price ">8 slices</p>
                     </div>
 
-                    <div>
+                    <div className="flex flex-col justify-center items-center">
                       <i className="text-[22px]  font-cooperBlack text-[#FFD700] ">
                         XLarge
                       </i>
-                      <p className="pizza-price ">////</p>
+                      <p className="pizza-price ">16"</p>
+                      <p className="pizza-price ">10 slices</p>
                     </div>
                   </div>
                 </div>
+
+              </div>
+
+
+
+
+              <div className="">
+                <div className="flex justify-between items-center">
+                  <h2 className="pizza-name-text">Gluten Free</h2>
+                  <div className="price-box">
+                    <div>
+                      <p className="pizza-price ">///</p>
+                    </div>
+
+                    <div>
+                      <p className="pizza-price ">&#36;11.99</p>
+                    </div>
+
+                    <div>
+                      <p className="pizza-price ">///</p>
+                    </div>
+
+                    <div>
+                      <p className="pizza-price ">///</p>
+                    </div>
+                  </div>
+                </div>
+
                 <p className="discription-text">
-                  {" "}
                   Only medium size. Pick your own toppings
                 </p>
               </div>
+
+
+
+
 
               <div className="">
                 <div className="flex justify-between items-center">
@@ -368,6 +406,51 @@ const Home = () => {
 
 
             <div className="w-1/2 pr-2">
+
+              <div>
+
+                <div className="flex justify-between items-center">
+                  <h2 className="pizza-name-text pt-7"></h2>
+                  <div className="price-box ">
+                    <div className="flex flex-col justify-center items-center">
+                      <i className="text-[22px] text-[#FFD700] font-cooperBlack ">
+                        Small
+                      </i>
+                      <p className="pizza-price ">10"</p>
+                      <p className="pizza-price ">4 slices</p>
+
+                    </div>
+
+                    <div className="flex flex-col justify-center items-center">
+                      <i className="text-[22px] text-[#FFD700] font-cooperBlack ">
+                        Medium
+                      </i>
+                      <p className="pizza-price ">12"</p>
+                      <p className="pizza-price ">6 slices</p>
+                    </div>
+
+                    <div className="flex flex-col justify-center items-center">
+                      <i className="text-[22px] text-[#FFD700] font-cooperBlack ">
+                        Large
+                      </i>
+                      <p className="pizza-price ">14"</p>
+                      <p className="pizza-price ">8 slices</p>
+                    </div>
+
+                    <div className="flex flex-col justify-center items-center">
+                      <i className="text-[22px]  font-cooperBlack text-[#FFD700] ">
+                        XLarge
+                      </i>
+                      <p className="pizza-price ">16"</p>
+                      <p className="pizza-price ">10 slices</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+
+
               <div className="flex justify-between items-center">
                 <div className="">
                   <h2 className="pizza-name-text mt-8">NY Style Margherita</h2>
@@ -376,30 +459,22 @@ const Home = () => {
 
                 <div className="price-box">
                   <div>
-                    <i className="text-[22px] text-[#FFD700] font-cooperBlack ">
-                      Small
-                    </i>
+
                     <p className="pizza-price ">&#36;16.99</p>
                   </div>
 
                   <div>
-                    <i className="text-[22px] text-[#FFD700] font-cooperBlack ">
-                      Medium
-                    </i>
+
                     <p className="pizza-price ">&#36;18.99</p>
                   </div>
 
                   <div>
-                    <i className="text-[22px] text-[#FFD700] font-cooperBlack ">
-                      Large
-                    </i>
+
                     <p className="pizza-price ">&#36;20.99</p>
                   </div>
 
                   <div>
-                    <i className="text-[22px]  font-cooperBlack text-[#FFD700] ">
-                      XLarge
-                    </i>
+
                     <p className="pizza-price ">&#36;22.99</p>
                   </div>
                 </div>

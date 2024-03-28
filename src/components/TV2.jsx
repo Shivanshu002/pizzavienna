@@ -36,7 +36,7 @@ const M1 = () => {
             </h1>
           </div>
           <div className="flex gap-[20px] pr-2 pl-2">
-           
+
             <div className="w-1/4">
               <div className="flex justify-between items-center">
                 <div>
@@ -151,7 +151,7 @@ const M1 = () => {
                 <p className="discription-text">Garlic parm sauce</p>
               </div>
 
-              <div className="flex justify-between items-center">
+              {/* <div className="flex justify-between items-center">
                 <div>
                   <h2 className="pizza-name-text">Side Eggplant </h2>
                   <p className="discription-text">
@@ -163,9 +163,9 @@ const M1 = () => {
                     <p className="pizza-price ">&#36;9.99</p>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
-              <div className="flex justify-between items-center">
+              {/* <div className="flex justify-between items-center">
                 <div>
                   <h2 className="pizza-name-text">Side Meatball </h2>
                   <p className="discription-text">
@@ -177,7 +177,8 @@ const M1 = () => {
                     <p className="pizza-price ">&#36;9.99</p>
                   </div>
                 </div>
-              </div>
+              </div> */}
+
             </div>
 
             {/* subs */}
@@ -246,7 +247,7 @@ const M1 = () => {
                 </p>
               </div>
 
-              <div>
+              {/* <div>
                 <div className="flex justify-between items-center">
                   <h2 className="pizza-name-text">Italian Cold Cut</h2>
                   <div className="price-box">
@@ -258,9 +259,9 @@ const M1 = () => {
                   Ham, Salami, Provolone cheese, oregano, parmesan, house
                   italian dressing
                 </p>
-              </div>
+              </div> */}
 
-              <div>
+              {/* <div>
                 <div className="flex justify-between items-center">
                   <h2 className="pizza-name-text">Chicken Gyro</h2>
                   <div className="price-box">
@@ -272,7 +273,7 @@ const M1 = () => {
                   Pita, Tzatziki sauce, tomatoes, gyro meat, feta cheese,
                   lettuce and onions
                 </p>
-              </div>
+              </div> */}
 
               <div>
                 <div className="flex justify-between items-center">
@@ -302,7 +303,7 @@ const M1 = () => {
                 </p>
               </div>
 
-              <div>
+              {/* <div>
                 <div className="flex justify-between items-center">
                   <h2 className="pizza-name-text">Eggplant Parmigiana</h2>
                   <div className="price-box">
@@ -313,7 +314,8 @@ const M1 = () => {
                 <p className="discription-text">
                   Eggplant with marinara sauce, parmesan and mozzarella cheese
                 </p>
-              </div>
+              </div> */}
+
             </div>
 
             {/* desserts */}
@@ -363,7 +365,7 @@ const M1 = () => {
                 </div>
               </div>
 
-              <div className="flex justify-between items-center">
+              {/* <div className="flex justify-between items-center">
                 <div>
                   <h2 className="pizza-name-text">Chocolate Cake</h2>
                 </div>
@@ -372,7 +374,7 @@ const M1 = () => {
                     <p className="pizza-price ">&#36;4.99</p>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               {/* <div className=" mt-10">
                                     <img className='' src={cake} alt="cake" />

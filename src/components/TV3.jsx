@@ -50,7 +50,7 @@ const M2 = () => {
                 </p>
               </div>
 
-              <div>
+              {/* <div>
                 <div className="flex justify-between items-center">
                   <h2 className="pizza-name-text">Hawaiian Roll</h2>
                   <div className="price-box">
@@ -62,7 +62,7 @@ const M2 = () => {
                 <p className="discription-text">
                   Ham, Pineapple, American, Provolone & Mozzarella Cheese{" "}
                 </p>
-              </div>
+              </div> */}
 
               <div>
                 <div className="flex justify-between items-center">
@@ -90,11 +90,11 @@ const M2 = () => {
                 </div>
                 <p className="discription-text">
                   Pepperoni, Sausage, Bacon, Meatballs, American, Provolone &
-                  Mozzarella Cheese{" "}
+                  Mozzarella Cheese
                 </p>
               </div>
 
-              <div>
+              {/* <div>
                 <div className="flex justify-between items-center">
                   <h2 className="pizza-name-text">Deluxe Roll</h2>
                   <div className="price-box">
@@ -107,7 +107,7 @@ const M2 = () => {
                   Mushrooms, Green Peppers, Onions, Meatballs, Sausage,
                   Pepperoni, American, Provolone & Mozzarella Cheese{" "}
                 </p>
-              </div>
+              </div> */}
 
               <div>
                 <div className="flex justify-between items-center">
@@ -123,7 +123,7 @@ const M2 = () => {
                 </p>
               </div>
 
-              <div>
+              {/* <div>
                 <div className="flex justify-between items-center">
                   <h2 className="pizza-name-text">Chicken Roll</h2>
                   <div className="price-box">
@@ -135,9 +135,9 @@ const M2 = () => {
                 <p className="discription-text">
                   Crispy chicken, American, provolone and mozzarella cheese{" "}
                 </p>
-              </div>
+              </div> */}
 
-              <div>
+              {/* <div>
                 <div className="flex justify-between items-center">
                   <h2 className="pizza-name-text">BBQ Chicken Roll</h2>
                   <div className="price-box">
@@ -149,7 +149,8 @@ const M2 = () => {
                 <p className="discription-text">
                   BBQ chicken, American, provolone and mozzarella cheese
                 </p>
-              </div>
+              </div> */}
+
             </div>
 
             {/* calozone */}
