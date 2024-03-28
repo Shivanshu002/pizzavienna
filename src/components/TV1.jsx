@@ -170,7 +170,7 @@ const Home = () => {
                   </div>
                 </div>
                 <p className="discription-text">
-                  Tomato sauce, cheese, bacon, sausage, meetball, pepperoni
+                  Tomato sauce, cheese, bacon, sausage, meatball, pepperoni
                 </p>
               </div>
 
@@ -224,7 +224,7 @@ const Home = () => {
                 </div>
                 <p className="discription-text">
                   {" "}
-                  BBQ sauce, chicken & cheese 
+                  BBQ sauce, chicken & cheese
                 </p>
               </div>
 
@@ -303,7 +303,7 @@ const Home = () => {
                   </div>
                 </div>
                 <p className="discription-text">
-                  Red sauce, cheese, pepproni, sausage, meatball, mushroom,
+                  Red sauce, cheese, pepperoni, sausage, meatball, mushroom,
                   green pepper, onions
                 </p>
               </div>
@@ -330,7 +330,7 @@ const Home = () => {
                   </div>
                 </div>
                 <p className="discription-text">
-                  Alfredo sauce, chicken, brocoli, mushroom
+                  Alfredo sauce, chicken, broccoli, mushroom
                 </p>
               </div>
 
@@ -362,10 +362,15 @@ const Home = () => {
               </div>
             </div>
 
+
+
+            {/* secend half */}
+
+
             <div className="w-1/2 pr-2">
               <div className="flex justify-between items-center">
                 <div className="">
-                  <h2 className="pizza-name-text mt-8">NY Style Mergherita</h2>
+                  <h2 className="pizza-name-text mt-8">NY Style Margherita</h2>
                   <p className="discription-text"> Red sauce, pesto sauce, mozzarella cheese, olive oil, parmesan cheese</p>
                 </div>
 
@@ -646,7 +651,7 @@ const Home = () => {
                     Each Topping &#36;2.55 Extra:{" "}
                   </span>
                   Pepperoni, Italian Sausage, Beef Meatballs, Bacon, Ham,
-                  Salami, Olives, Green Pappers, Tomatoes, Mushrooms, Onions,
+                  Salami, Olives, Green Peppers, Tomatoes, Mushrooms, Onions,
                   Spinach, Broccoli, Pineapple, Jalapeno, Peppers, Eggplants,
                   Banana Peppers, Roasted Red Peppers, Fresh Garlic, Extra
                   Cheese

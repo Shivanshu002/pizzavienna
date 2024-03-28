@@ -20,7 +20,7 @@ const M2 = () => {
         <div className=" ">
           <div className="flex gap-[20px] bg-red-600 pl-2 pr-2">
             <h1 className="w-1/4 text-[50px] text-white font-cooperBlack font-semibold">
-              Strombolis Rolls{" "}
+              Strombolis Rolls 16"
             </h1>
             <h1 className="w-1/4 text-[50px] text-white font-cooperBlack font-semibold">
               Calzone
@@ -75,7 +75,7 @@ const M2 = () => {
                 </div>
                 <p className="discription-text">
                   Mushrooms, Tomatoes, Green Peppers, Onions, Olives, Roasted
-                  Pappers, American, Provolone & Mozzarella Cheese{" "}
+                  Peppers, American, Provolone & Mozzarella Cheese
                 </p>
               </div>
 
@@ -119,7 +119,7 @@ const M2 = () => {
                   </div>
                 </div>
                 <p className="discription-text">
-                  Italian beef sausage, Amerian, provolone and mozzarella cheese{" "}
+                  Italian beef sausage, America, provolone and mozzarella cheese{" "}
                 </p>
               </div>
 
