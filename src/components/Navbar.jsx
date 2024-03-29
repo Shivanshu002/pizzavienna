@@ -14,7 +14,7 @@ const Navbar = () => {
             <section className='flex items-center justify-between font-roboto'>
                 <div className='w-[1250px] h-[70px] bg-red-700/75 rounded-[10px] flex items-center justify-between pr-5 pl-3 p-2'>
                     <div>
-                        <img src={logo} className='w-[60px] h-[60px] ' />
+                        {/* <img src={logo} className='w-[60px] h-[60px] ' /> */}
                     </div>
                     <ul className='flex items-center gap-4 text-white font-medium text-[25px]'>
                         <li>Home</li>
