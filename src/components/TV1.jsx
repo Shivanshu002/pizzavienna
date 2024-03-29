@@ -3,6 +3,7 @@ import React from "react";
 // import video from '../assests/background.mp4';
 import "../css/home.css";
 import { useEffect } from "react";
+import pizaIcon from '../assests/food_15090191.png';
 
 const Home = () => {
   useEffect(() => {
@@ -20,9 +21,12 @@ const Home = () => {
     <>
       <section className="w-full min-h-[2160px]   bg-blue-700 font-cooperBlack">
         <div className="">
-          <h1 className="text-[50px] bg-red-600 pl-2 text-white font-cooperBlack font-semibold">
+
+          <h1 className="flex text-[50px] bg-red-600 pl-2 text-white font-cooperBlack font-semibold">
             Pizza
+            <img src={pizaIcon} alt="pizzavienna" className="w-[80px] h-[80px]" />
           </h1>
+
           <div className="flex gap-10 pl-2 pr-2">
 
             <div className="w-1/2">
@@ -36,7 +40,7 @@ const Home = () => {
                       <i className="text-[22px] text-[#FFD700] font-cooperBlack ">
                         Small
                       </i>
-                      <p className="font-semibold text-[20px] text-white ">10"</p>
+                      <p className="font-semibold text-[20px] text-[#FFD700] ">10"</p>
                       <p className="text-[20px] text-[#FFD700] font-cooperBlack">4 slices</p>
 
                     </div>
@@ -45,7 +49,7 @@ const Home = () => {
                       <i className="text-[22px] text-[#FFD700] font-cooperBlack ">
                         Medium
                       </i>
-                      <p className="font-semibold text-[20px] text-white ">12"</p>
+                      <p className="font-semibold text-[20px] text-[#FFD700] ">12"</p>
                       <p className="text-[20px] text-[#FFD700] font-cooperBlack ">6 slices</p>
                     </div>
 
@@ -53,7 +57,7 @@ const Home = () => {
                       <i className="text-[20px] text-[#FFD700] font-cooperBlack ">
                         Large
                       </i>
-                      <p className="font-semibold text-[20px] text-white ">14"</p>
+                      <p className="font-semibold text-[20px] text-[#FFD700] ">14"</p>
                       <p className="text-[20px] text-[#FFD700] font-cooperBlack ">8 slices</p>
                     </div>
 
@@ -61,7 +65,7 @@ const Home = () => {
                       <i className="text-[20px]  font-cooperBlack text-[#FFD700] ">
                         XLarge
                       </i>
-                      <p className="font-semibold text-[20px] text-white ">16"</p>
+                      <p className="font-semibold text-[20px] text-[#FFD700] ">16"</p>
                       <p className="text-[20px] text-[#FFD700] font-cooperBlack">10 slices</p>
                     </div>
                   </div>
@@ -417,7 +421,7 @@ const Home = () => {
                       <i className="text-[22px] text-[#FFD700] font-cooperBlack ">
                         Small
                       </i>
-                      <p className="font-semibold text-[20px] text-white">10"</p>
+                      <p className="font-semibold text-[20px] text-[#FFD700]">10"</p>
                       <p className="text-[20px] text-[#FFD700] font-cooperBlack">4 slices</p>
 
                     </div>
@@ -426,7 +430,7 @@ const Home = () => {
                       <i className="text-[22px] text-[#FFD700] font-cooperBlack ">
                         Medium
                       </i>
-                      <p className="font-semibold text-[20px] text-white ">12"</p>
+                      <p className="font-semibold text-[20px] text-[#FFD700] ">12"</p>
                       <p className="text-[20px] text-[#FFD700] font-cooperBlack">6 slices</p>
                     </div>
 
@@ -434,7 +438,7 @@ const Home = () => {
                       <i className="text-[22px] text-[#FFD700] font-cooperBlack ">
                         Large
                       </i>
-                      <p className="font-semibold text-[20px] text-white">14"</p>
+                      <p className="font-semibold text-[20px] text-[#FFD700]">14"</p>
                       <p className="text-[20px] text-[#FFD700] font-cooperBlack">8 slices</p>
                     </div>
 
@@ -442,7 +446,7 @@ const Home = () => {
                       <i className="text-[22px]  font-cooperBlack text-[#FFD700] ">
                         XLarge
                       </i>
-                      <p className="font-semibold text-[20px] text-white">16"</p>
+                      <p className="font-semibold text-[20px] text-[#FFD700]">16"</p>
                       <p className="text-[20px] text-[#FFD700] font-cooperBlack ">10 slices</p>
                     </div>
                   </div>
@@ -734,7 +738,7 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            
+
           </div>
         </div>
       </section>

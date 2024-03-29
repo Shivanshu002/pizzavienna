@@ -3,7 +3,8 @@ import "../css/home.css";
 import { useState, useEffect } from "react";
 import "swiper/css";
 import "swiper/css/pagination";
-// import cake from '.././assests/pngwing.com (7).png';
+import subs from '../assests/PngItem_1058628.png';
+import desserts from '../assests/pngwing.com.png'
 
 const M1 = () => {
   useEffect(() => {
@@ -25,11 +26,13 @@ const M1 = () => {
             <h1 className="w-1/4 text-[50px] text-white font-cooperBlack font-semibold">
               Sides
             </h1>
-            <h1 className="w-1/4 text-[50px] text-white font-cooperBlack font-semibold">
+            <h1 className="flex gap-2 items-center w-1/4 text-[50px] text-white font-cooperBlack font-semibold">
               Subs
+              <img src={subs} alt="subs" className="w-[190px]" />
             </h1>
-            <h1 className="w-1/4 text-[50px] text-white font-cooperBlack font-semibold">
+            <h1 className="flex items-center  gap-2 w-1/4 text-[50px] text-white font-cooperBlack font-semibold">
               Desserts
+              <img src={desserts} alt="desserts" className="w-[100px] h-[70px]"/>
             </h1>
             <h1 className="w-1/4 text-[50px] text-white font-cooperBlack font-semibold">
               Salad
