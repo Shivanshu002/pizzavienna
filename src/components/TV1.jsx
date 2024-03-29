@@ -24,6 +24,7 @@ const Home = () => {
             Pizza
           </h1>
           <div className="flex gap-10 pl-2 pr-2">
+
             <div className="w-1/2">
 
               <div>
@@ -31,37 +32,37 @@ const Home = () => {
                 <div className="flex justify-between items-center">
                   <h2 className="pizza-name-text pt-7"></h2>
                   <div className="price-box ">
-                    <div className="flex flex-col justify-center items-center">
+                    <div className="flex flex-col justify-center items-center mr-5">
                       <i className="text-[22px] text-[#FFD700] font-cooperBlack ">
                         Small
                       </i>
-                      <p className="pizza-price ">10"</p>
-                      <p className="pizza-price ">4 slices</p>
+                      <p className="font-semibold text-[20px] text-white ">10"</p>
+                      <p className="text-[20px] text-[#FFD700] font-cooperBlack">4 slices</p>
 
                     </div>
 
-                    <div className="flex flex-col justify-center items-center">
+                    <div className="flex flex-col justify-center items-center mr-5">
                       <i className="text-[22px] text-[#FFD700] font-cooperBlack ">
                         Medium
                       </i>
-                      <p className="pizza-price ">12"</p>
-                      <p className="pizza-price ">6 slices</p>
+                      <p className="font-semibold text-[20px] text-white ">12"</p>
+                      <p className="text-[20px] text-[#FFD700] font-cooperBlack ">6 slices</p>
                     </div>
 
-                    <div className="flex flex-col justify-center items-center">
-                      <i className="text-[22px] text-[#FFD700] font-cooperBlack ">
+                    <div className="flex flex-col justify-center items-center mr-5">
+                      <i className="text-[20px] text-[#FFD700] font-cooperBlack ">
                         Large
                       </i>
-                      <p className="pizza-price ">14"</p>
-                      <p className="pizza-price ">8 slices</p>
+                      <p className="font-semibold text-[20px] text-white ">14"</p>
+                      <p className="text-[20px] text-[#FFD700] font-cooperBlack ">8 slices</p>
                     </div>
 
-                    <div className="flex flex-col justify-center items-center">
-                      <i className="text-[22px]  font-cooperBlack text-[#FFD700] ">
+                    <div className="flex flex-col justify-center items-center pr-3">
+                      <i className="text-[20px]  font-cooperBlack text-[#FFD700] ">
                         XLarge
                       </i>
-                      <p className="pizza-price ">16"</p>
-                      <p className="pizza-price ">10 slices</p>
+                      <p className="font-semibold text-[20px] text-white ">16"</p>
+                      <p className="text-[20px] text-[#FFD700] font-cooperBlack">10 slices</p>
                     </div>
                   </div>
                 </div>
@@ -412,37 +413,37 @@ const Home = () => {
                 <div className="flex justify-between items-center">
                   <h2 className="pizza-name-text pt-7"></h2>
                   <div className="price-box ">
-                    <div className="flex flex-col justify-center items-center">
+                    <div className="flex flex-col justify-center items-center mr-5">
                       <i className="text-[22px] text-[#FFD700] font-cooperBlack ">
                         Small
                       </i>
-                      <p className="pizza-price ">10"</p>
-                      <p className="pizza-price ">4 slices</p>
+                      <p className="font-semibold text-[20px] text-white">10"</p>
+                      <p className="text-[20px] text-[#FFD700] font-cooperBlack">4 slices</p>
 
                     </div>
 
-                    <div className="flex flex-col justify-center items-center">
+                    <div className="flex flex-col justify-center items-center mr-5">
                       <i className="text-[22px] text-[#FFD700] font-cooperBlack ">
                         Medium
                       </i>
-                      <p className="pizza-price ">12"</p>
-                      <p className="pizza-price ">6 slices</p>
+                      <p className="font-semibold text-[20px] text-white ">12"</p>
+                      <p className="text-[20px] text-[#FFD700] font-cooperBlack">6 slices</p>
                     </div>
 
-                    <div className="flex flex-col justify-center items-center">
+                    <div className="flex flex-col justify-center items-center mr-5">
                       <i className="text-[22px] text-[#FFD700] font-cooperBlack ">
                         Large
                       </i>
-                      <p className="pizza-price ">14"</p>
-                      <p className="pizza-price ">8 slices</p>
+                      <p className="font-semibold text-[20px] text-white">14"</p>
+                      <p className="text-[20px] text-[#FFD700] font-cooperBlack">8 slices</p>
                     </div>
 
-                    <div className="flex flex-col justify-center items-center">
+                    <div className="flex flex-col justify-center items-center mr-5">
                       <i className="text-[22px]  font-cooperBlack text-[#FFD700] ">
                         XLarge
                       </i>
-                      <p className="pizza-price ">16"</p>
-                      <p className="pizza-price ">10 slices</p>
+                      <p className="font-semibold text-[20px] text-white">16"</p>
+                      <p className="text-[20px] text-[#FFD700] font-cooperBlack ">10 slices</p>
                     </div>
                   </div>
                 </div>
@@ -733,6 +734,7 @@ const Home = () => {
                 </p>
               </div>
             </div>
+            
           </div>
         </div>
       </section>
