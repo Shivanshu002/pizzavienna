@@ -3,7 +3,7 @@
 }
 
 .pizza-price {
-  @apply text-[25px] text-white  text-center w-[94px] h-[40px];
+  @apply text-[25px] text-white  text-center w-[94px] h-[39px];
 }
 
 .price-box {

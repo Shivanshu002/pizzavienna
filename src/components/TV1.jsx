@@ -3,7 +3,7 @@ import React from "react";
 // import video from '../assests/background.mp4';
 import "../css/home.css";
 import { useEffect } from "react";
-import pizaIcon from '../assests/food_15090191.png';
+import pizaIcon from '../assests/pngwing.com (1).png';
 
 const Home = () => {
   useEffect(() => {
@@ -22,9 +22,9 @@ const Home = () => {
       <section className="w-full min-h-[2160px]   bg-blue-700 font-cooperBlack">
         <div className="">
 
-          <h1 className="flex text-[50px] bg-red-600 pl-2 text-white font-cooperBlack font-semibold">
+          <h1 className="flex items-center text-[50px] bg-red-600 pl-2 text-white font-cooperBlack font-semibold">
             Pizza
-            <img src={pizaIcon} alt="pizzavienna" className="w-[80px] h-[80px]" />
+            <img src={pizaIcon} alt="pizzavienna" className="w-[100px] h-[60px]" />
           </h1>
 
           <div className="flex gap-10 pl-2 pr-2">

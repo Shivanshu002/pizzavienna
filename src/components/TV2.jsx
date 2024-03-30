@@ -5,6 +5,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import subs from '../assests/PngItem_1058628.png';
 import desserts from '../assests/pngwing.com.png'
+import salad from '../assests/salad-png-42826 (1).png';
 
 const M1 = () => {
   useEffect(() => {
@@ -32,10 +33,11 @@ const M1 = () => {
             </h1>
             <h1 className="flex items-center  gap-2 w-1/4 text-[50px] text-white font-cooperBlack font-semibold">
               Desserts
-              <img src={desserts} alt="desserts" className="w-[100px] h-[70px]"/>
+              <img src={desserts} alt="desserts" className="w-[100px] h-[70px]" />
             </h1>
-            <h1 className="w-1/4 text-[50px] text-white font-cooperBlack font-semibold">
+            <h1 className="flex items-center gap-3 w-1/4 text-[50px] text-white font-cooperBlack font-semibold">
               Salad
+              <img src={salad} alt="salad" className="w-[100px] h-[70px]" />
             </h1>
           </div>
           <div className="flex gap-[20px] pr-2 pl-2">
