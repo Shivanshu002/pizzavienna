@@ -303,7 +303,7 @@ const Home = () => {
 
                   <div className="price-box">
                     <div>
-                      <p className="pizza-price ">&#36;16.99</p>
+                      <p className="pizza-price ">&#36;17.99</p>
                     </div>
 
                     <div>
