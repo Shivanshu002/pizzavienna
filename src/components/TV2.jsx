@@ -492,7 +492,7 @@ const M1 = () => {
                   <h2 className="pizza-name-text">Caesar</h2>
                   <div className="price-box">
                     <div>
-                      <p className="pizza-price ">&#36;8.99</p>
+                      <p className="pizza-price ">&#36;9.99</p>
                     </div>
                   </div>
                 </div>
@@ -506,7 +506,7 @@ const M1 = () => {
                   <h2 className="pizza-name-text">Chicken Caesar</h2>
                   <div className="price-box">
                     <div>
-                      <p className="pizza-price ">&#36;9.99</p>
+                      <p className="pizza-price ">&#36;10.99</p>
                     </div>
                   </div>
                 </div>
@@ -520,7 +520,7 @@ const M1 = () => {
                   <h2 className="pizza-name-text">Garden</h2>
                   <div className="price-box">
                     <div>
-                      <p className="pizza-price ">&#36;8.99</p>
+                      <p className="pizza-price ">&#36;10.99</p>
                     </div>
                   </div>
                 </div>
@@ -535,7 +535,7 @@ const M1 = () => {
                   <h2 className="pizza-name-text">Greek</h2>
                   <div className="price-box">
                     <div>
-                      <p className="pizza-price ">&#36;9.99</p>
+                      <p className="pizza-price ">&#36;11.99</p>
                     </div>
                   </div>
                 </div>
@@ -550,7 +550,7 @@ const M1 = () => {
                   <h2 className="pizza-name-text">House Chef</h2>
                   <div className="price-box">
                     <div>
-                      <p className="pizza-price ">&#36;9.99</p>
+                      <p className="pizza-price ">&#36;11.99</p>
                     </div>
                   </div>
                 </div>
