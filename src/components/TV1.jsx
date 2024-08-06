@@ -249,11 +249,7 @@ const Home = () => {
                   <h2 className="pizza-name-text">BBQ </h2>
                   <div className="price-box">
                     <div>
-                      <p className="pizza-price ">&#36;15.99</p>
-                    </div>
-
-                    <div>
-                      <p className="pizza-price ">&#36;18.99</p>
+                      <p className="pizza-price ">&#36;16.99</p>
                     </div>
 
                     <div>
@@ -262,6 +258,10 @@ const Home = () => {
 
                     <div>
                       <p className="pizza-price ">&#36;22.99</p>
+                    </div>
+
+                    <div>
+                      <p className="pizza-price ">&#36;24.99</p>
                     </div>
                   </div>
                 </div>
@@ -276,11 +276,7 @@ const Home = () => {
                   <h2 className="pizza-name-text">Buffalo </h2>
                   <div className="price-box">
                     <div>
-                      <p className="pizza-price ">&#36;15.99</p>
-                    </div>
-
-                    <div>
-                      <p className="pizza-price ">&#36;18.99</p>
+                      <p className="pizza-price ">&#36;16.99</p>
                     </div>
 
                     <div>
@@ -289,6 +285,10 @@ const Home = () => {
 
                     <div>
                       <p className="pizza-price ">&#36;22.99</p>
+                    </div>
+
+                    <div>
+                      <p className="pizza-price ">&#36;24.99</p>
                     </div>
                   </div>
                 </div>
@@ -303,19 +303,19 @@ const Home = () => {
 
                   <div className="price-box">
                     <div>
-                      <p className="pizza-price ">&#36;17.99</p>
+                      <p className="pizza-price ">&#36;16.99</p>
                     </div>
 
                     <div>
-                      <p className="pizza-price ">&#36;19.99</p>
+                      <p className="pizza-price ">&#36;20.99</p>
                     </div>
 
                     <div>
-                      <p className="pizza-price ">&#36;23.99</p>
+                      <p className="pizza-price ">&#36;22.99</p>
                     </div>
 
                     <div>
-                      <p className="pizza-price ">&#36;25.99</p>
+                      <p className="pizza-price ">&#36;24.99</p>
                     </div>
                   </div>
                 </div>
@@ -386,15 +386,15 @@ const Home = () => {
                     </div>
 
                     <div>
-                      <p className="pizza-price ">&#36;18.99</p>
-                    </div>
-
-                    <div>
                       <p className="pizza-price ">&#36;20.99</p>
                     </div>
 
                     <div>
                       <p className="pizza-price ">&#36;22.99</p>
+                    </div>
+
+                    <div>
+                      <p className="pizza-price ">&#36;24.99</p>
                     </div>
                   </div>
                 </div>
@@ -470,17 +470,17 @@ const Home = () => {
 
                   <div>
 
-                    <p className="pizza-price ">&#36;18.99</p>
-                  </div>
-
-                  <div>
-
                     <p className="pizza-price ">&#36;20.99</p>
                   </div>
 
                   <div>
 
                     <p className="pizza-price ">&#36;22.99</p>
+                  </div>
+
+                  <div>
+
+                    <p className="pizza-price ">&#36;24.99</p>
                   </div>
                 </div>
 
@@ -569,14 +569,10 @@ const Home = () => {
 
               <div>
                 <div className="flex justify-between items-center">
-                  <h2 className="pizza-name-text">Cheese Lover </h2>
+                  <h2 className="pizza-name-text">Cheese Lovers </h2>
                   <div className="price-box">
                     <div>
-                      <p className="pizza-price ">&#36;15.99</p>
-                    </div>
-
-                    <div>
-                      <p className="pizza-price ">&#36;18.99</p>
+                      <p className="pizza-price ">&#36;16.99</p>
                     </div>
 
                     <div>
@@ -585,6 +581,10 @@ const Home = () => {
 
                     <div>
                       <p className="pizza-price ">&#36;22.99</p>
+                    </div>
+
+                    <div>
+                      <p className="pizza-price ">&#36;24.99</p>
                     </div>
                   </div>
                 </div>
