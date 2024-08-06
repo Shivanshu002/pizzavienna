@@ -93,7 +93,7 @@ const Home = () => {
                     </div>
 
                     <div>
-                      <p className="pizza-price ">//</p>
+                      <p className="pizza-price ">///</p>
                     </div>
                   </div>
                 </div>
