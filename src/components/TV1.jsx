@@ -169,11 +169,7 @@ const Home = () => {
 
                   <div className="price-box">
                     <div>
-                      <p className="pizza-price ">&#36;15.99</p>
-                    </div>
-
-                    <div>
-                      <p className="pizza-price ">&#36;18.99</p>
+                      <p className="pizza-price ">&#36;16.99</p>
                     </div>
 
                     <div>
@@ -182,6 +178,10 @@ const Home = () => {
 
                     <div>
                       <p className="pizza-price ">&#36;22.99</p>
+                    </div>
+
+                    <div>
+                      <p className="pizza-price ">&#36;24.99</p>
                     </div>
                   </div>
 
