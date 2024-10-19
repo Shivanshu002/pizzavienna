@@ -3,8 +3,20 @@ import TV1 from './components/TV1';
 import TV2 from "./components/TV2";
 import TV3 from "./components/TV3";
 // import M3 from "./components/M3";
+import { useEffect } from "react";
 
 function App() {
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      window.location.reload();
+    }, 300000); // 60000 milliseconds = 1 minute
+    return () => {
+      // Cleanup the interval when the component is unmounted
+      clearInterval(intervalId);
+    };
+  }, []);
+
   return (
     <>
       <Routes>

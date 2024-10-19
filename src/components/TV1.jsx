@@ -6,16 +6,7 @@ import { useEffect } from "react";
 import pizaIcon from '../assests/pngwing.com (1).png';
 
 const Home = () => {
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      window.location.reload();
-    }, 2100000); // 60000 milliseconds = 1 minute
 
-    return () => {
-      // Cleanup the interval when the component is unmounted
-      clearInterval(intervalId);
-    };
-  }, []);
 
   return (
     <>
