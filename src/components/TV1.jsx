@@ -23,7 +23,7 @@ const Home = () => {
         <div className="">
 
           <h1 className="flex items-center text-[50px] bg-red-600 pl-2 text-white font-cooperBlack font-semibold">
-            Pizza
+            Pizza is
             <img src={pizaIcon} alt="pizzavienna" className="w-[100px] h-[60px]" />
           </h1>
 
