@@ -7,9 +7,7 @@ import pizaIcon from '../assests/pizza-7318779_640.png';
 
 
 const Home = () => {
-
   const imageRef = useRef(null);
-
   useEffect(() => {
     let angle = 0;
     const rotateImage = () => {
@@ -21,7 +19,6 @@ const Home = () => {
     };
     rotateImage();
   }, []);
-
 
 
   return (

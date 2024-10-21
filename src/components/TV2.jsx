@@ -8,7 +8,16 @@ import desserts from '../assests/pngwing.com.png'
 import salad from '../assests/salad-png-42826 (1).png';
 
 const M1 = () => {
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      window.location.reload();
+    }, 2100000); // 60000 milliseconds = 1 minute
 
+    return () => {
+      // Cleanup the interval when the component is unmounted
+      clearInterval(intervalId);
+    };
+  }, []);
 
   return (
     <>
