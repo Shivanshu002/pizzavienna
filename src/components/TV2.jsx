@@ -33,7 +33,7 @@ const M1 = () => {
             </h1>
             <h1 className="flex items-center  gap-2 w-1/4 text-[50px] text-white font-cooperBlack font-semibold">
               Desserts
-              <img src={desserts} alt="desserts" className="w-[100px] h-[70px]" />
+              {/* <img src={desserts} alt="desserts" className="w-[100px] h-[70px]" /> */}
             </h1>
             <h1 className="flex items-center gap-3 w-1/4 text-[50px] text-white font-cooperBlack font-semibold">
               Salad
