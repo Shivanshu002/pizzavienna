@@ -8,7 +8,7 @@ import desserts from '../assests/pngwing.com.png'
 import salad from '../assests/salad-png-42826 (1).png';
 
 const M1 = () => {
-  
+
 
   return (
     <>
@@ -378,10 +378,11 @@ const M1 = () => {
 
               {/* Pasta*/}
               <div>
-                <h1 className=" text-[50px] bg-red-600 text-white font-cooperBlack font-semibold pl-1 rounded-[5px]">
-                  Pasta
-                </h1>
-
+                <div className="rounded-[5px] bg-red-600">
+                  <h1 className=" text-[50px] bg-red-600 text-white font-cooperBlack font-semibold pl-1 rounded-[5px]">
+                    Pasta
+                  </h1>
+                </div>
                 <div>
                   <div className="flex justify-between items-center">
                     <h2 className="pizza-name-text">Chicken Fettuccine</h2>
@@ -426,9 +427,11 @@ const M1 = () => {
               {/* Wraps*/}
 
               <div>
-                <h1 className=" text-[50px] text-white font-cooperBlack font-semibold pl-1 rounded-[5px] bg-red-600">
-                  Wraps
-                </h1>
+                <div className="rounded-[5px] bg-red-600">
+                  <h1 className=" text-[50px] text-white font-cooperBlack font-semibold pl-1 ">
+                    Wraps
+                  </h1>
+                </div>
 
                 <div>
                   <div className="flex justify-between items-center">
@@ -552,9 +555,11 @@ const M1 = () => {
               </div>
 
               <div>
-                <h1 className=" text-[50px] text-white font-cooperBlack font-semibold pl-1 rounded-[5px] bg-red-600">
-                  Wings
-                </h1>
+                <div className="rounded-[5px] bg-red-600 pl-1">
+                  <h1 className=" text-[50px] text-white font-cooperBlack font-semibold  ">
+                    Wings
+                  </h1>
+                </div>
 
                 <p className="discription-text ">
                   Hot, Medium, BBQ, Garlic Parmigiana{" "}

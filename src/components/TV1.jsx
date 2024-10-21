@@ -2,22 +2,38 @@ import React from "react";
 // import Header from './Header';
 // import video from '../assests/background.mp4';
 import "../css/home.css";
-import { useEffect } from "react";
-import pizaIcon from '../assests/pngwing.com (1).png';
+import { useEffect, useRef } from "react";
+import pizaIcon from '../assests/pizza-7318779_640.png';
+
 
 const Home = () => {
+
+  const imageRef = useRef(null);
+
+  useEffect(() => {
+    let angle = 0;
+    const rotateImage = () => {
+      if (imageRef.current) {
+        angle = (angle + 1) % 360;
+        imageRef.current.style.transform = `rotate(${angle}deg)`;
+      }
+      requestAnimationFrame(rotateImage);
+    };
+    rotateImage();
+  }, []);
+
 
 
   return (
     <>
       <section className="w-full min-h-[2160px]   bg-blue-700 font-cooperBlack">
         <div className="">
-
-          <h1 className="flex items-center text-[50px] bg-red-600 pl-2 text-white font-cooperBlack font-semibold">
-            Pizza
-            <img src={pizaIcon} alt="pizzavienna" className="w-[100px] h-[60px]" />
-          </h1>
-
+          <div className="bg-red-600">
+            <h1 className="flex items-center text-[50px]  pl-2 text-white ">
+              Pizza
+              <img style={{ width: '3.5%' }} ref={imageRef} src={pizaIcon} alt="pizzavienna" className="ml-[40px]" />
+            </h1>
+          </div>
           <div className="flex gap-10 pl-2 pr-2">
 
             <div className="w-1/2">
