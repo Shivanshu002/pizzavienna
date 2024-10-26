@@ -1,10 +1,9 @@
 import "../css/home.css";
 // import video from '../assests/background.mp4';
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import "swiper/css";
 import "swiper/css/pagination";
 import subs from '../assests/PngItem_1058628.png';
-import desserts from '../assests/pngwing.com.png'
 import salad from '../assests/salad-png-42826 (1).png';
 import vid from '../assests/vid.mp4';
 
