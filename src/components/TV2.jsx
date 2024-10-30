@@ -9,6 +9,19 @@ import vid from '../assests/vid.mp4';
 
 const M1 = () => {
 
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      window.location.reload();
+    }, 30000); // 1000 milliseconds = 1 secend
+    return () => {
+      // Cleanup the interval when the component is unmounted
+      // clearInterval(intervalId);
+    };
+  }, []);
+
+
+
+
   return (
     <>
 
@@ -16,8 +29,6 @@ const M1 = () => {
         <video autoPlay muted loop id="background-video">
           <source src={vid} type="video/mp4" />
         </video>
-
-
         <section className="w-full min-h-[2160px] bg-blue-950/60    font-cooperBlack">
           <div className="">
             <div className="flex gap-[20px] bg-red-600">

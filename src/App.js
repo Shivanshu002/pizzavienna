@@ -7,16 +7,7 @@ import { useEffect } from "react";
 
 function App() {
 
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      window.location.reload();
-    }, 60000); // 1000 milliseconds = 1 secend
-    return () => {
-      // Cleanup the interval when the component is unmounted
-      clearInterval(intervalId);
-    };
-  }, []);
-
+  
   return (
     <>
       <Routes>
