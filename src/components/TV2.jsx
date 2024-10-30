@@ -15,9 +15,9 @@ const M1 = () => {
     }, 30000); // 1000 milliseconds = 1 secend
     return () => {
       // Cleanup the interval when the component is unmounted
-      // clearInterval(intervalId);
+      clearInterval(intervalId);
     };
-  }, []);
+  }, );
 
 
 
