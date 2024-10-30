@@ -1,12 +1,11 @@
 import { useEffect } from "react";
 import "../css/home.css";
-// import video from '../assests/background.mp4';
 
 const M2 = () => {
  
   return (
     <>
-      <section className="w-full min-h-[2160px]  bg-blue-700 font-cooperBlack">
+      <section className="w-full min-h-[2160px]  bg-blue-950 font-cooperBlack">
         <div className=" ">
           <div className="flex gap-[20px] bg-red-600 pl-2 pr-2">
             <h1 className="w-1/4 text-[50px] text-white font-cooperBlack font-semibold">

@@ -23,7 +23,7 @@ const Home = () => {
 
   return (
     <>
-      <section className="w-full min-h-[2160px]   bg-blue-700 font-cooperBlack">
+      <section className="w-full min-h-[2160px]   bg-blue-950 font-cooperBlack">
         <div className="">
           <div className="bg-red-600">
             <h1 className="flex items-center text-[50px]  pl-2 text-white ">

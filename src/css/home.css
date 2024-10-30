@@ -46,14 +46,16 @@ h1 {
 }
 
 .video-background {
-  position: relative;
-  height: 100vh;
-  width: 100%;
-  overflow: hidden;
+  /* position: relative; */
+  /* height: 100vh; */
+  /* width: 100%; */
+  /* overflow: hidden; */
+  margin-top: 90px;
+  margin-left: 105px;
 }
 
 #background-video {
-  position: absolute;
+  /* position: absolute; */
   top: 50%;
   left: 50%;
   width: 100%;
