@@ -12,7 +12,7 @@ const M1 = () => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       window.location.reload();
-    }, 30000); // 1000 milliseconds = 1 secend
+    }, 300000); // 1000 milliseconds = 1 secend
     return () => {
       // Cleanup the interval when the component is unmounted
       clearInterval(intervalId);
