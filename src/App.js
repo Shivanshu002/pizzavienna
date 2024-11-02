@@ -12,11 +12,11 @@ function App() {
     <>
       <Routes>
         {/* pasta */}
-        <Route path="/tv1" element={<TV1 />} />
+        <Route path="/" element={<TV1 />} />
         {/* wings, salad, sub, sides, pasata, wraps, desserts */}
-        <Route path="/tv2" element={<TV2 />} />
+        <Route path="/tv-b" element={<TV2 />} />
         {/* strombolies, calazone, sandwich burger */}
-        <Route path="/tv3" element={<TV3 />} />
+        <Route path="/tv-c" element={<TV3 />} />
         {/* <Route path="/tv4" element={<M3 />} /> */}
       </Routes>
 
