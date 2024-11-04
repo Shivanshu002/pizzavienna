@@ -3,7 +3,7 @@ import React from "react";
 // import video from '../assests/background.mp4';
 import "../css/home.css";
 import { useEffect, useRef } from "react";
-import pizaIcon from '../assests/pizza-7318779_640.png';
+import pizaIcon from '../assests/pizzaico.png';
 import vid from '../assests/vid.mp4';
 
 
