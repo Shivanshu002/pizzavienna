@@ -12,7 +12,7 @@ function App() {
     <>
       <Routes>
         {/* pasta */}
-        <Route path="/tva" element={<TV1 />} />
+        <Route path="/" element={<TV1 />} />
         {/* wings, salad, sub, sides, pasata, wraps, desserts */}
         <Route path="/tvb" element={<TV2 />} />
         {/* strombolies, calazone, sandwich burger */}
