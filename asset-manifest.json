@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pizzavienna/static/css/main.dfed0fb2.css",
-    "main.js": "/pizzavienna/static/js/main.93c6ab9a.js",
+    "main.js": "/pizzavienna/static/js/main.239dfcd5.js",
     "static/js/453.e94713ca.chunk.js": "/pizzavienna/static/js/453.e94713ca.chunk.js",
     "static/media/vid.mp4": "/pizzavienna/static/media/vid.3a47a36d9e39267172e2.mp4",
     "static/media/PngItem_1058628.png": "/pizzavienna/static/media/PngItem_1058628.b7db36fe64f6067e764c.png",
@@ -9,11 +9,11 @@
     "static/media/pizzaico.png": "/pizzavienna/static/media/pizzaico.6204de50881901adba68.png",
     "index.html": "/pizzavienna/index.html",
     "main.dfed0fb2.css.map": "/pizzavienna/static/css/main.dfed0fb2.css.map",
-    "main.93c6ab9a.js.map": "/pizzavienna/static/js/main.93c6ab9a.js.map",
+    "main.239dfcd5.js.map": "/pizzavienna/static/js/main.239dfcd5.js.map",
     "453.e94713ca.chunk.js.map": "/pizzavienna/static/js/453.e94713ca.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dfed0fb2.css",
-    "static/js/main.93c6ab9a.js"
+    "static/js/main.239dfcd5.js"
   ]
 }
