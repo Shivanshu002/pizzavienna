@@ -50,7 +50,7 @@ const Home = () => {
             <div className="bg-red-600 flex justify-between items-center">
               <h1 className="flex items-center text-[50px]  pl-2 text-white ">
                 Pizza
-                <img style={{ width: '3.5%' }} ref={imageRef} src={pizaIcon} alt="pizzavienna" className="ml-[40px]" />
+                <img style={{ width: '6.5%' }} ref={imageRef} src={pizaIcon} alt="pizzavienna" className="ml-[40px]" />
               </h1>
               <h2 className="text-white font-semibold mr-9"><Link to={'/tvb'}>=</Link></h2>
             </div>
