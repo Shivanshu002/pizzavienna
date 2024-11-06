@@ -5,6 +5,7 @@ import "../css/home.css";
 import { useEffect, useRef } from "react";
 import pizaIcon from '../assests/pizzaico.png';
 import vid from '../assests/vid.mp4';
+import { Link } from "react-router-dom";
 
 
 const Home = () => {
@@ -46,11 +47,12 @@ const Home = () => {
         </video>
         <section className="w-full min-h-[2160px]   bg-blue-950/60 font-cooperBlack">
           <div className="">
-            <div className="bg-red-600">
+            <div className="bg-red-600 flex justify-between items-center">
               <h1 className="flex items-center text-[50px]  pl-2 text-white ">
                 Pizza
                 <img style={{ width: '3.5%' }} ref={imageRef} src={pizaIcon} alt="pizzavienna" className="ml-[40px]" />
               </h1>
+              <h2 className="text-white font-semibold mr-9"><Link to={'/tvb'}>=</Link></h2>
             </div>
             <div className="flex gap-10 pl-2 pr-2">
 

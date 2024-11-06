@@ -6,6 +6,8 @@ import "swiper/css/pagination";
 import subs from '../assests/PngItem_1058628.png';
 import salad from '../assests/salad-png-42826 (1).png';
 import vid from '../assests/vid.mp4';
+import { Link } from "react-router-dom";
+
 
 const M1 = () => {
 
@@ -17,7 +19,7 @@ const M1 = () => {
       // Cleanup the interval when the component is unmounted
       clearInterval(intervalId);
     };
-  }, );
+  },);
 
   return (
     <>
@@ -28,7 +30,7 @@ const M1 = () => {
         </video>
         <section className="w-full min-h-[2160px] bg-blue-950/60    font-cooperBlack">
           <div className="">
-            <div className="flex gap-[20px] bg-red-600">
+            <div className="flex gap-[20px] bg-red-600 items-center">
               <h1 className="w-1/4 text-[50px] text-white font-cooperBlack font-semibold">
                 Sides
               </h1>
@@ -43,6 +45,7 @@ const M1 = () => {
                 Salad
                 <img src={salad} alt="salad" className="w-[100px] h-[70px]" />
               </h1>
+              <h2 className="text-white font-semibold mr-9"><Link to={'/tvc'}>=</Link></h2>
             </div>
             <div className="flex gap-[20px] pr-2 pl-2">
 
