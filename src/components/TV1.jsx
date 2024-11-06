@@ -61,7 +61,7 @@ const Home = () => {
                 <div>
 
                   <div className="flex justify-between items-center">
-                    <h2 className="pizza-name-text pt-7"></h2>
+                    <h2 className="pizza-name-text pt-7">=</h2>
                     <div className="price-box ">
                       <div className="flex flex-col justify-center items-center mr-5">
                         <i className="text-[22px] text-[#FFD700] font-cooperBlack ">
@@ -108,7 +108,7 @@ const Home = () => {
                     <h2 className="pizza-name-text">Gluten Free</h2>
                     <div className="price-box">
                       <div>
-                        <p className="pizza-price ">///</p>
+                        <p className="pizza-price ">|||</p>
                       </div>
 
                       <div>
@@ -116,11 +116,11 @@ const Home = () => {
                       </div>
 
                       <div>
-                        <p className="pizza-price ">///</p>
+                        <p className="pizza-price ">|||</p>
                       </div>
 
                       <div>
-                        <p className="pizza-price ">///</p>
+                        <p className="pizza-price ">|||</p>
                       </div>
                     </div>
                   </div>
@@ -442,7 +442,7 @@ const Home = () => {
                 <div>
 
                   <div className="flex justify-between items-center">
-                    <h2 className="pizza-name-text pt-7"></h2>
+                    <h2 className="pizza-name-text pt-7">=</h2>
                     <div className="price-box ">
                       <div className="flex flex-col justify-center items-center mr-5">
                         <i className="text-[22px] text-[#FFD700] font-cooperBlack ">
