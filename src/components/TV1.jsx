@@ -616,7 +616,7 @@ const Home = () => {
                     </div>
                   </div>
                   <p className="discription-text">
-                    American cheese, yellow cheddar, parmesan, mozzarella and
+                    White sauce, yellow cheddar, parmesan, mozzarella and
                     provolone cheese
                   </p>
                 </div>

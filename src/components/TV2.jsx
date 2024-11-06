@@ -492,7 +492,7 @@ const M1 = () => {
                       </div>
                     </div>
                     <p className="discription-text">
-                      Wrap, Grilled chicken, Tomatoes, Onions, Blue cheese,
+                      Buffalo Sauce, Wrap, Grilled chicken, Tomatoes, Onions, Blue cheese,
                       Cheese, Lettuce{" "}
                     </p>
                   </div>
@@ -621,7 +621,7 @@ const M1 = () => {
                     </div>
                   </div>
                   <h2 className="text-white text-[27px] underline">
-                    BONE-IN, BONELESS
+                    BONE IN, BONE LESS
                   </h2>
                 </div>
               </div>
