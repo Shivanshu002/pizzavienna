@@ -11,15 +11,15 @@ import { Link } from "react-router-dom";
 
 const M1 = () => {
 
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      window.location.reload();
-    }, 300000); // 1000 milliseconds = 1 secend
-    return () => {
-      // Cleanup the interval when the component is unmounted
-      clearInterval(intervalId);
-    };
-  },);
+  // useEffect(() => {
+  //   const intervalId = setInterval(() => {
+  //     window.location.reload();
+  //   }, 300000); 
+  //   return () => {
+      
+  //     clearInterval(intervalId);
+  //   };
+  // },);
 
   return (
     <>
