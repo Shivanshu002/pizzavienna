@@ -1,6 +1,5 @@
 import "../css/home.css";
 // import video from '../assests/background.mp4';
-import { useEffect } from "react";
 import "swiper/css";
 import "swiper/css/pagination";
 import subs from '../assests/PngItem_1058628.png';
@@ -293,7 +292,7 @@ const M1 = () => {
 
                 <div>
                   <div className="flex justify-between items-center">
-                    <h2 className="pizza-name-text">Beef Gyro </h2>
+                    <h2 className="pizza-name-text">Chicken Gyro </h2>
                     <div className="price-box">
                       <p className="pizza-price ">&#36;8.99</p>
                       <p className="pizza-price ">&#36;12.99</p>
